@@ -18,6 +18,11 @@ To obtain the stoichiometric matrix, one must use the function `.write_SMatrix(n
 
 An example of how to use it is within the `Test.py` file.
 
+## Requirements
+
+- numpy=1.21.2
+- pandas=1.3.3
+
 ## Limitations
 
 Only reactions with one or two reactants and products (without considering the enzime) are tested.
